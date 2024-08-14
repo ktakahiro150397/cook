@@ -7,5 +7,4 @@ services:
       - ./workspace:/workspace
     ports:
       - "9080:9080"
-    command: "sleep infinity"
-    
+    command: "cook serve --host --port 9080"
