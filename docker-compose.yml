@@ -1,0 +1,11 @@
+services:
+  cook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./workspace:/workspace
+    ports:
+      - "9080:9080"
+    command: "sleep infinity"
+    
