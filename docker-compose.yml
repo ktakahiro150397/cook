@@ -7,4 +7,4 @@ services:
       - ./workspace:/workspace
     ports:
       - "9080:9080"
-    command: "cook serve --host --port 9080"
+    command: "cook server --host --port 9080"
